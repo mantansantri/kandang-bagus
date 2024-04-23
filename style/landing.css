@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.topnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  letter-spacing: 10%;
+  font-style: normal;
+  float: center;
+  height: 70px;
+}
+
+.beranda-page {
+  padding: 100px;
+}
+
+.navbot {
+  text-decoration: none;
+  color: white;
+}
+
+.text-title {
+  position: relative;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 70px;
+  color: white;
+}
+
+.text-cate {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.action-button {
+  position: relative;
+  text-align: center;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 20px;
+}
+
+.sapi-image {
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.about-page {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about-txt {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.title-about {
+  font-size: 40px;
+}
+
+.cows-title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.brahmans-cow {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.title-cows {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.daftar-hewan {
+  position: relative;
+  padding: 50px;
+}
+
+.galeri-title {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.galeri {
+  text-align: center;
+}
+
+.galeri-image {
+  padding: 30px;
+}
+
+.person-name {
+  font-weight: normal;
+}
+
+.profil-image {
+  margin-top: 70px;
+  border-radius: 90px;
+}
+
+.contact-page {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #04aa6d;
+  padding: 50px;
+}
+
+.image-contact {
+  float: left;
+  margin-left: 100px;
+  width: 300;
+  height: 200;
+}
+
+.image-in {
+  border-radius: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #04aa6d;
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
